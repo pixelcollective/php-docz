@@ -1,0 +1,36 @@
+{
+    "name": "tiny-pixel/php-docz",
+    "description": "phpDocumentor template that generates DocZ-specific markdown",
+    "keywords" : [
+        "PHPDoc",
+        "phpDocumentor",
+        "Documentation",
+        "Markdown",
+        "DocZ"
+    ],
+    "homepage" : "https://github.com/pixelcollective/php-docz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kelly Mears",
+            "email": "developers@tinypixel.dev"
+        }
+    ],
+    "require-dev": {
+        "twig/twig": "~1.2|2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TinyPixel\\PHPDocZ\\": "src"
+        }
+    },
+    "bin": [
+        "bin/phpdocz"
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "illuminate/support": "^5.8"
+    }
+}

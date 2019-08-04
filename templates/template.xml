@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+  <author>Kelly Mears</author>
+  <email>developers@tinypixel.dev/email>
+  <version>1.0.0</version>
+  <copyright>Kelly Mears 2019</copyright>
+  <description>Generate DocZ API documentation for PHP projects</description>
+</template>
